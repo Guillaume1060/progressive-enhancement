@@ -1,0 +1,71 @@
+p
+{
+    color: rgb(40, 38, 53);
+    font-family: serif, Arial, Helvetica, sans-serif;
+    text-indent: 50px;
+    line-height: 1.8;
+}
+
+body{
+    max-width: 90%;
+    margin: auto;
+   background-color: rgb(68, 128, 128); 
+   background-image: url("champ.jpg");
+   background-repeat: no-repeat;
+   background-position: bottom right;
+   background-size: cover;
+   
+}
+
+q, blockquote
+{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 160%;
+    background-color: rgb(235, 214, 214,0.3);
+    border-left: #B22222 solid 30px;
+    padding-left: 8px ;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.quotation
+{
+    font-style: italic;
+}
+
+.neighbors
+{
+    border-left: 5px brown solid;
+}
+
+
+.farmer
+{
+    border-left: 5px green solid;
+}
+
+em
+{
+    font-size: larger;
+}
+
+header h1
+{
+    background-color: yellow;
+}
+
+.good, .bad
+{
+    text-transform: capitalize;
+}
+
+.bad
+{
+    color: red;
+}
+.good
+{
+    color: green;
+}
