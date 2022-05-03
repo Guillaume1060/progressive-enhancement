@@ -6,6 +6,11 @@ p
     line-height: 1.8;
 }
 
+@font-face {
+    font-family: 'Open Sans';
+    src: url(OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
 body{
     max-width: 90%;
     margin: auto;
@@ -14,8 +19,42 @@ body{
    background-repeat: no-repeat;
    background-position: bottom right;
    background-size: cover;
+   font-family: 'Open Sans','Courier New', Courier, monospace;
    
 }
+
+/* Tableau */
+table{
+    margin: auto;
+    border-collapse: collapse;
+    width: 880px;
+    height: 200px;
+    text-align: center;
+}
+td{
+    border: solid 1px;
+}
+tbody{
+    background-color: rgba(90, 87, 87,0.8);
+    
+}
+thead{
+    background-color: rgba(202, 192, 192,0.8);
+    font-size: x-large;
+    
+}
+caption{
+    font-size:xx-large;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+/* */
 
 q, blockquote
 {
@@ -68,4 +107,62 @@ header h1
 .good
 {
     color: green;
+}
+
+#first_paragraph
+{
+    font-weight: bold;
+}
+
+
+ul
+{
+    font-size: larger;
+}
+#pouce_up
+{
+    background-image: url("bien.png");
+    background-repeat: no-repeat;
+    background-position: 360px;
+    height: 50px;
+}
+#pouce_down
+{
+    background-image: url("mal.png");
+    background-repeat: no-repeat;
+    background-position: 330px;
+    height: 50px;
+}
+#cat
+{       background-image: url("chat.png");
+    background-repeat: no-repeat;
+    background-position: 340px;
+    height: 50px;
+}
+
+#conteneur_1
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: flex-start;
+    
+}
+
+#texte
+{
+    width: 700px;;
+    margin-left: 50px;
+    text-align: justify;
+    font-size: 20px;
+   
+    
+}
+
+
+img
+{
+    width: 750px;
+    height: 600px;
+    b
 }
